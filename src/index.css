@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:linear-gradient(to bottom, #818CF8 0%,#4338CA 100%); 
 }
 
 code {
@@ -44,13 +45,13 @@ code {
 }
 
 .note.new {
-	background-color: #67d7cc;
+	background-color: white;
 }
 
 textarea {
 	border: none;
 	resize: none;
-	background-color: #67d7cc;
+	background-color: white;
 }
 
 textarea:focus {
