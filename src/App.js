@@ -27,6 +27,7 @@ function App() {
 
   return (
     <div className="container">
+      <h1 style={{color:"white"}}>Notekeep</h1>
         <NotesList 
           notes={notes} 
           handleAddNote={handleAddNote}
